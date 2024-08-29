@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.navbar p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-size: 5.7rem;
+}
+
+.navbar p:hover{
+    color: yellow;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar p {
+        justify-content: center;
+    }
+}

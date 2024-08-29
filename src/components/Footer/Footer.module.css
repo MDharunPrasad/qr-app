@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 3.3rem;
+}
+
+.host, .host:hover, .host:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.host:hover {
+    color: yellow;
+}
